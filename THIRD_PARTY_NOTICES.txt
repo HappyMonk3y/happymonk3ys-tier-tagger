@@ -1,0 +1,47 @@
+HappyMonk3y's Tier Tagger 1.6.0 -- third-party resources
+
+Classic and MCTiers gamemode icons
+Source project: Tiers, by Flavio6561 / PvPTiers and contributors
+Project: https://modrinth.com/mod/tiers
+Repository: https://github.com/PvPTiers/Tiers
+Revision: c3520c42f0feb048c4b3cd75a5d231a9f0090b87
+Classic source directory:
+src/main/resources/resourcepacks/tiers-resources/assets/minecraft/textures/font/gamemodes/classic/
+Files: axe.png, crystal.png, mace.png, neth_pot.png, pot.png, smp.png,
+sword.png, uhc.png.
+
+MCTiers source directory:
+src/main/resources/resourcepacks/tiers-resources/assets/minecraft/textures/font/gamemodes/mctiers/
+Files: axe.png, mace.png, neth_op.png, pot.png, smp.png, sword.png,
+uhc.png, vanilla.png.
+
+These sixteen PNGs are copied without pixel changes. Their distribution is
+under the source project's GNU General Public License version 3 only.
+The full license is in LICENSE and beside the copied texture files.
+
+The font/classic.json and font/mctiers.json registrations are adapted from
+upstream font/gamemodes/classic-tags.json and mctiers-tags.json: resource
+paths are namespaced to this mod.
+The original 7-pixel height/ascent and F000-F007 glyph assignments are kept.
+MCTiers API v2 vanilla maps to Classic crystal.png or MCTiers vanilla.png;
+nethop maps to Classic neth_pot.png or MCTiers neth_op.png.
+All imported artwork is obtained from the Tiers resource pack at the above
+revision under that project's license, not extracted from Tier Tagger.
+No Tiers Java code or PvPTiers icon set is included.
+
+Tier color palettes
+The HT1-LT5 MCTiers and PvPTiers RGB values are taken from the same Tiers
+revision's resourcepacks/tiers-resources/assets/minecraft/colors/mctiers.json
+and pvptiers.json (under src/main/resources/). Unmodified upstream files
+are included as docs/mctiers-colors-upstream.json and
+docs/pvptiers-colors-upstream.json for verification under the same GPL terms.
+The MCTiers values were also checked against Tier Tagger's defaultColors:
+https://github.com/mctiers-dev/TierTagger/blob/6f49034c9f800f1da330efa90e5810b2c0430d5c/common/src/main/java/net/uku3lig/tiertagger/config/TierTaggerConfig.java
+No Tier Tagger Java code is copied. Retired #8FB6DC is the user's custom
+choice and intentionally overrides each upstream palette's retired color.
+
+The combined distribution is supplied under GPL-3.0-only, with its complete
+corresponding source in the source ZIP delivered alongside the mod JAR.
+The independently authored Java code and original generated fallback/app
+icon also remain available under the MIT terms in LICENSE-MIT.txt.
+Neither project endorses this custom build.
