@@ -1,4 +1,4 @@
-HappyMonk3y's Tier Tagger 1.6.0 -- third-party resources
+HappyMonk3y's Tier Tagger 1.7.0 -- third-party resources
 
 Classic and MCTiers gamemode icons
 Source project: Tiers, by Flavio6561 / PvPTiers and contributors

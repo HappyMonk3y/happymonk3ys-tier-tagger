@@ -6,7 +6,10 @@ A Fabric client mod using the MCTiers v2 API. Includes compact tier badges in pl
 
 The complete, buildable source for each release is included in the source ZIP files in this repository. Download and extract the ZIP before building. Each archive contains the Java source, resources, tests, Gradle wrapper, API contract, and license notices. Minecraft game files, Gradle caches, local settings, and credentials are not included.
 
+- [Version 1.7.0 source for Minecraft 1.21 through 26.3](happymonk3ys-tier-tagger-1.7.0-source.zip)
 - [Version 1.6.0 source for Minecraft 1.21.11](happymonk3ys-tier-tagger-1.6.0-source.zip)
+
+For 1.7.0, extract its source ZIP and run `./gradlew build -Pmc=1.21.11`, changing the Minecraft version to your target. On Windows use `gradlew.bat build '-Pmc=1.21.11'`. The archive's `versions.json` pins all 17 supported releases and their dependencies. Use JDK 21 for 1.21.x targets and JDK 25 for 26.x targets. `build-all.ps1` builds all versions; adding `-Smoke` also runs the isolated client checks.
 
 For 1.6.0, use Java 21 and run `./gradlew build` (`gradlew.bat build` on Windows). Fabric API and Mod Menu are required at runtime.
 
